@@ -13,3 +13,7 @@
        FlutterUpdate.install(filePath);
    }
 ```
+
+## 重要提示
+
+Android需要将本项目中necessary包下的upload_file_paths.xml文件**copy**到自己项目android -> app -> src -> main -> res -> xml路径中
