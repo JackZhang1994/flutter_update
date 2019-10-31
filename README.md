@@ -8,7 +8,7 @@
 
 ```
    if (defaultTargetPlatform == TargetPlatform.iOS) {
-       FlutterUpdate.jumpAppStore();
+       FlutterUpdate.jumpAppStore(url);
    } else {
        FlutterUpdate.install(filePath);
    }
